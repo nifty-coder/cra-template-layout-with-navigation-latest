@@ -13,7 +13,7 @@
   "description": "Base template for a responsive web app with Top Bar, Main Content and Bottom Bar with Themes!",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nifty-coder/cra-template-layout-with-navigation/",
+    "url": "https://github.com/nifty-coder/cra-template-layout-with-navigation-latest/",
     "directory": "packages/cra-template"
   },
   "license": "MIT",
@@ -21,7 +21,7 @@
     "node": ">=10"
   },
   "bugs": {
-    "url": "https://github.com/nifty-coder/cra-template-layout-with-navigation/issues"
+    "url": "https://github.com/nifty-coder/cra-template-layout-with-navigation-latest/issues"
   },
   "files": [
     "template",
