@@ -1,0 +1,10 @@
+.Headings {
+    font-size: 1.2vw;
+    color: orange;
+}
+
+@media (max-width: 499px) {
+    .Headings {
+        font-size: 2.5vw;
+    }
+}

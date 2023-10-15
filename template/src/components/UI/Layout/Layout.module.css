@@ -1,0 +1,10 @@
+.Layout {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+}
+
+.MainContent {
+  grid-row: 2;
+  text-align: center;
+}

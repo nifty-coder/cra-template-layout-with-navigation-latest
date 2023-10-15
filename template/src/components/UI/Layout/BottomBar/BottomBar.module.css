@@ -1,0 +1,54 @@
+.BottomBar {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: auto auto;
+    justify-items: center;
+    padding: 1vw;
+    background-color: rgb(39, 3, 168);
+    color: white;
+    font-size: 1vw;
+}
+
+.BottomBar a {
+    color: white;
+}
+
+.BottomBarSubGrid1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 14vw;
+    padding-left: 2vw;
+}
+
+.BottomBarSubGrid2 {
+    display: grid;
+    grid-template-columns: auto;
+    /* grid-column-gap: 6vw; */
+    padding-left: 2vw;
+}
+
+/* .AboutDeveloper a {
+    color: orange;
+    text-decoration: underline;
+} */
+
+.CopyRight {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    font-size: 0.8vw;
+}
+
+@media (max-width: 499px) {
+    .BottomBar {
+        display: grid;
+        grid-template-columns: auto;
+        font-size: 2vw;
+        grid-gap: 1vh;
+    }
+
+    .CopyRight {
+        grid-column: 1;
+        grid-row: 3;
+        font-size: 2vw;
+    }
+}

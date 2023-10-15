@@ -1,0 +1,51 @@
+.NavigationItem {
+    box-sizing: border-box;  
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 0.8px solid white;
+}
+
+.NavigationItem:first-of-type {
+    border-bottom: none;
+}
+
+.NavigationItem a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 4vw;
+}
+
+.Separator {
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .NavigationItem {
+        text-align: center;
+        height: 3vw;
+        border-right: 0.8px solid;
+        border-color: white;
+        background-color: rgb(22, 85, 211);
+        border-bottom: none;
+    }
+    
+    .NavigationItem:first-of-type, .NavigationItem:last-of-type {
+        border-right: none;
+    }
+    
+    .NavigationItem a {
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.25vw;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .NavigationItem a:hover,
+    .NavigationItem a:active, 
+    .NavigationItem a.Active {
+      border-bottom: 2px solid;
+  }     
+}

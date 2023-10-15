@@ -1,0 +1,15 @@
+@media (min-width: 500px) {
+.NavigationItems {
+    display: grid;
+    grid-template-columns: repeat(6, 16.5vw);
+    align-items: center;
+ }
+}
+
+@media (max-width: 499px) {
+    .NavigationItems {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        row-gap: 8px;
+    }
+}

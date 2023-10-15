@@ -1,0 +1,61 @@
+.DesktopContactBar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.DarkModeIcon {
+    margin-top: 3vh;
+    margin-right: 5vw;
+    color: rgb(65, 221, 221);
+    cursor: pointer;
+}
+
+.MobileOnly {
+    display: none;
+}
+
+.WebsiteName {
+    font-size: 8vw;
+}
+
+@media (min-width: 500px) {
+    .DesktopContactBar {
+        font-size: 0.9vw;
+        display: grid;
+        grid-template-columns: 15vw 40vw auto auto;
+        grid-column-gap: 3vw;
+        background-color: rgb(39, 3, 168);
+        color: white;      
+        height: 7vw;
+    }
+    
+    .DarkModeIcon {
+        margin-top: 3vh;
+        margin-right: 0;
+        color: rgb(65, 221, 221);
+        cursor: pointer;
+    }
+
+    .AlignBothWays {
+        margin: auto;
+        text-align: center;
+    }
+
+    .WebsiteName {
+        font-size: 2.5vw;
+    }
+    
+   .DesktopSubGrid {
+       display: grid;
+       grid-template-columns: auto auto;
+       grid-gap: 2vw;
+       margin-top: 1.1vw;
+   }
+
+   .EmailTel {
+       display: grid;
+       grid-template-columns: auto;
+       grid-gap: 0;
+   }
+}

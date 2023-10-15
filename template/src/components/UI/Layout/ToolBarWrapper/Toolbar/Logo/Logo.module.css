@@ -1,0 +1,21 @@
+.Logo {
+    z-index: 25;
+}
+
+.Logo img {
+    width: 9vw;
+    height: 9vw;
+    z-index: 10;
+    box-shadow: none;
+    border-radius: 50%; /* optional */
+    margin-left: 3vw;
+    margin-top: 0.5vw; 
+    margin-bottom: 0.5vw;
+}
+
+@media (max-width: 499px) {
+    .Logo img {
+        width: 20vw;
+        height: 20vw;
+    }
+}

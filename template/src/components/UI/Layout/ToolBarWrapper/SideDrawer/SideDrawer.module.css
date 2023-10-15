@@ -1,0 +1,33 @@
+.SideDrawer {
+   position: fixed;
+   max-width: 80vw;
+   height: 38vh;
+   bottom: 89.8vw; 
+   font-size: 3.3vw;
+   z-index: 200;
+   background-color: rgb(39,3,168); 
+   padding: 32px 16px;
+   box-sizing: border-box;
+   transition: transform 0.3s ease-out;
+   color: white;
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}
+
+.CloseButton {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+@media (min-width: 500px) {
+    .SideDrawer {
+        display: none;
+    }
+}

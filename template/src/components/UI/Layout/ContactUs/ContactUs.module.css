@@ -1,0 +1,22 @@
+     .SocialMedia, .EmailTel {
+       color: white;
+    }
+    
+    .Email {
+        font-size: 1.1vw;
+        color: white;
+    }
+
+    .AddressBlock {
+        display: block;
+    }
+
+    .AddressNone {
+        display: none;
+    }
+
+    @media (max-width: 499px) {
+        .Email {
+            font-size: 2.5vw;
+        }
+    }

@@ -1,0 +1,11 @@
+.ToolBarWrapper {
+    display: grid;
+    grid-template-columns: auto;
+    height: 21vh;
+}
+
+@media (max-width: 499px) {
+    .ToolBarWrapper {
+        height: 24vh;
+    }     
+}

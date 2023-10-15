@@ -1,0 +1,30 @@
+{
+  "name": "cra-template-layout-with-navigation",
+  "version": "1.2.0",
+  "main": "template.json",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "layout",
+    "responsive", 
+    "navigation",
+    "cra-template"
+  ],
+  "description": "Base template for a responsive web app with Top Bar, Main Content and Bottom Bar with Themes!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nifty-coder/cra-template-layout-with-navigation/",
+    "directory": "packages/cra-template"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/nifty-coder/cra-template-layout-with-navigation/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
